@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*******HEAD*******/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 44px 25.48px 39px 26.52px;
+    margin: 92px 24px 96px 24px;
+    width: 1052px;
+    height: 105px;
+}
+
+.cub {
+    width: 148px;
+    height: 105px;
+    overflow: hidden;
+    margin-right: 184px;
+    margin-top: 92px;
+    margin-bottom: 96px;
+    margin-left: 36px;
+    background-color: white;
+    background-size: 148px 105px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left_nav {
+    width: 391.48px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style-type: circle;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    gap: 13px;
+}
+
+.right_nav {
+    display: flex;
+    width: 240.52px;
+    height: 98px;
+    top: 5px;
+    left: 786px;
+    color: #000000;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+
+}
+
+.nav_p {
+    margin: 0;
+}
+
+.no_toch {
+    list-style-type: none;
+}
+
+.toch {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.navbar .left,
+.navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left a,
+.navbar .right a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar .right {
+    flex-direction: column;
+}
+
+.navbar .right a {
+    margin: 5px 0;
+}
+
+/*******main*******/
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/cover.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 1100px;
+    height: 757px;
+    margin: auto;
+    justify-content: center;
+}
+
+.probi {
+    margin: 135px 734px 20px 50px;
+    width: 316px;
+    height: 115px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+}
+
+.probi_2 {
+    margin: 0px 0px 0px -18px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+
+}
+
+.probi_3 {
+    margin: 20px 0px 637px 50px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+.cont_button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0px 50px 62px 78px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.button {
+    width: 256px;
+    height: 51px;
+    color: white;
+    background: none;
+    float: right;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-align: center;
+    border: 1px 0px 0px 0px;  
+
+
+
+    border-color: aliceblue;
+}
+
+.p_button {
+
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    word-spacing: 15px;
+    margin: 0px 60px 0px 0px
+}
+
+/*******columns-block*******/
+.three-columns-block {
+    padding: 3px;
+    Width: 1052px;
+    height: auto;
+    margin: 179px 24px 146px 24px;
+    font-weight: bold;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.column {
+    color: white;
+    width: 30%;
+    padding: 20px;
+    justify-content: space-between;
+    left: 700px;
+}
+
+.card_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/card-lot-01.jpg);
+    Height: 563px;
+    Width: 334px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 51px 40px 40px 40px;
+    text-align: left;
+}
+
+.card_2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/card-lot-02.jpg);
+    Height: 563px;
+    Width: 334px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 51px 40px 48px 40px;
+}
+
+.card_3 {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/card-lot-03.jpg);
+    Height: 563px;
+    Width: 334px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 51px 40px 40px 40px;
+}
+
+.bottom-text_1 {
+    width: 254px;
+    height: 144px;
+    top: 445px;
+    left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 234px;
+}
+
+.bottom-text_2 {
+    width: 254px;
+    height: 360px;
+    top: 229px;
+    left: 399px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bottom-text_3 {
+    margin: 90px 0px 0px 0px;
+    width: 254px;
+    height: 264px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.top-text_1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+}
+
+.top-text_2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+}
+
+.top-text_3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+}
+
+.bottom-title {
+    margin: 30px 814px 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.title {
+    margin: 0px 891px 27px 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-align: left;
+}
+
+.block-with-background {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+   /* margin: 165px 50px 16px 50px;*/
+}
+
+/*******circle*******/
+.block-with-circle {
+    display: flex;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    height: 595px;
+}
+
+.block-with-circle .circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+    background-image: url(../images/logo-white.svg);
+    background-size: 148px 114px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle img {
+    background-position: center;
+}
+
+.circle {
+    margin: 35px 72px 302px 47px;
+}
+
+.title_info_circle {
+    margin: 136px 402px 100px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-align: left;
+}
+
+.p_tex {
+    width: 688px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+   margin: 0px 29px 0px 0px;
+}
+
+.p_tex_1 {
+    width: 698px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+   margin: 0px 29px 24px 0px;
+}
+
+.info_rex {
+    width: 693px;
+    height: 449px;
+    top: 133px;
+    left: 359px;
+    padding: 3px 0px 0px 0px;
+}
+
+.container_info {
+    width: 693px;
+    height: 449px;
+    top: 133px;
+    left: 359px;
+}
+
+.tex_info {
+    width: 693px;
+    height: 312px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*******footer*******/
+.footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    width: 1000px;
+    height: 98px;
+    margin: 180PX 50PX 88PX 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer .left,
+.footer .center,
+.footer .right {
+    display: flex;
+    text-align: center;
+}
+
+.footer .right {
+    flex-direction: row;
+}
+
+.footer .right img {
+    height: 40px;
+    margin: 0 5px;
+}
+
+.right_footer_class {
+    top: 2843px;
+    left: 810px;
+    gap: 48px;
+}
+
+.left_footer_class {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+}
